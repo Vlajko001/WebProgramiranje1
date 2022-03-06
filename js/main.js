@@ -18,7 +18,7 @@ $(document).ready(function () {
     }
    // Dinamicki ispis futera 
    $.ajax({
-        url: "../data/socialNetworks.json",
+        url: "data/socialNetworks.json",
         type: "get",
         datatype: "json",
         success: function(result){
