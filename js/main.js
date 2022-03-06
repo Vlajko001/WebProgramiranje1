@@ -1,3 +1,15 @@
+function ajaxCallBack(filename, result){ 
+    $.ajax({
+        url: "assets/data/" + filename + ".json",
+        method: "get",
+        dataType: "json",
+        success: result,
+        error: function(xhr, error, status){
+            console.log(xhr)  
+        }
+    });
+}
+
 $(document).ready(function () {
     let currentPage = location.pathname;
     console.log(currentPage);
@@ -29,7 +41,8 @@ $(document).ready(function () {
             console.log(status);
         }
    });
-    function writeFooter(){
+    ajaxCallBack(socialNetworks, writeFooter(result));
+    function writeFooter(networks){
         let elementFooter = document.querySelector("footer");
         let htmlFooter = "";
         htmlFooter += `
@@ -50,7 +63,7 @@ $(document).ready(function () {
                         <a href="index.html" class="footer-logo">Famms</a>
                         <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with</p>
                         <div class="footer_social">
-                            ${writeSocialCases()}
+                            ${writeSocialCases(networks)}
                         </div>
                     </div>
                 </div>
@@ -67,14 +80,13 @@ $(document).ready(function () {
                     <p>&copy; Made by Vlajko 116/20</a></p>
                 </div>
             </div>`;
-        elementFooter.innerHTML += htmlFooter;
+        elementFooter.innerHTML = htmlFooter;
     }
-    function writeSocialCases(){
-        let arrSocial = ["facebook", "twitter", "linkedin", "instagram", "pinterest"];
+    function writeSocialCases(usedArray){
+        //let arrSocial = ["facebook", "twitter", "linkedin", "instagram", "pinterest"];
         let htmlSocial = "";
-        arrSocial.forEach(el => htmlSocial += `<a href=""><i class="fa fa-${el}" aria-hidden="true"></i></a>`);
+        usedArray.forEach(el => htmlSocial += `<a href="${el.address}"><i class="fa fa-${el.arrayElement}" aria-hidden="true"></i></a>`);
         return htmlSocial;
     }
-    writeFooter();
     myMap();
 });
