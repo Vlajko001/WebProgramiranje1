@@ -1,0 +1,19 @@
+#authorBlok{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#authorSlika{
+    width: 40%;
+}
+#authorSlika img{
+    width: 100%;
+}
+#authorOpis{
+    width: 50%;
+    margin-left: 20px;
+}
