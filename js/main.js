@@ -13,7 +13,7 @@ function ajaxCallBack(filename, result){
 $(document).ready(function () {
     let currentPage = location.pathname;
     console.log(currentPage);
-    if(currentPage == "/WebProgramiranje1/index.html"){
+    if(currentPage == "/" || currentPage == "/WebProgramiranje1/index.html"){
         alert("glavna stranica");
     }else if(currentPage == "/WebProgramiranje1/about.html"){
         alert("about");
@@ -41,7 +41,7 @@ $(document).ready(function () {
             console.log(status);
         }
    });
-    ajaxCallBack(socialNetworks, writeFooter(result));
+    ajaxCallBack("socialNetworks", writeFooter(result));
     function writeFooter(networks){
         let elementFooter = document.querySelector("footer");
         let htmlFooter = "";
