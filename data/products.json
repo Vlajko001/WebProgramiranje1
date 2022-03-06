@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "image": {
+            "src": "p1.png",
+            "alt": "High quality long sleeved men's white shirt."
+        },
+        "displayName": "Men's Shirt White",
+        "displayPrice": 75
+    },
+    {
+        "id": 2,
+        "image": {
+            "src": "p2.png",
+            "alt": "High quality long sleeved elegant man's black shirt."
+        },
+        "displayName": "Men's Shirt Black",
+        "displayPrice": 80
+    },
+    {
+        "id": 3,
+        "image": {
+            "src": "p3.png",
+            "alt": "High quality elegant deep purple women's dress."
+        },
+        "displayName": "Women's Dress Purple",
+        "displayPrice": 68
+    },
+    {
+        "id": 4,
+        "image": {
+            "src": "p4.png",
+            "alt": "High quality elegant fiery red women's dress."
+        },
+        "displayName": "Women's Dress Red",
+        "displayPrice": 70
+    },
+    {
+        "id": 5,
+        "image": {
+            "src": "p5.png",
+            "alt": "High quality mystique dark black women's dress."
+        },
+        "displayName": "Women's Dress Black",
+        "displayPrice": 75
+    },
+    {
+        "id": 6,
+        "image": {
+            "src": "p6.png",
+            "alt": "Get most of this two for one special offer, double the dresses, half the price each(both or none)."
+        },
+        "displayName": "Women's Dress Black",
+        "displayPrice": 58
+    },
+    {
+        "id": 7,
+        "image": {
+            "src": "p7.png",
+            "alt": "High quality dark black long women's dress."
+        },
+        "displayName": "Women's Dress Black",
+        "displayPrice": 80
+    },
+    {
+        "id": 8,
+        "image": {
+            "src": "p8.png",
+            "alt": "High quality denim blue long sleeved men's shirt."
+        },
+        "displayName": "Men's Shirt Denim",
+        "displayPrice": 65
+    },
+    {
+        "id": 9,
+        "image": {
+            "src": "p9.png",
+            "alt": "High quality deep blue long sleeved men's shirt."
+        },
+        "displayName": "Men's Shirt Deep Blue",
+        "displayPrice": 65
+    },
+    {
+        "id": 10,
+        "image": {
+            "src": "p10.png",
+            "alt": "High quality emerald green long sleeved men's shirt."
+        },
+        "displayName": "Men's Shirt Emerald Green",
+        "displayPrice": 62
+    },
+    {
+        "id": 11,
+        "image": {
+            "src": "p11.png",
+            "alt": "High quality country short sleeved men's shirt."
+        },
+        "displayName": "Men's Shirt Country",
+        "displayPrice": 68
+    },
+    {
+        "id": 12,
+        "image": {
+            "src": "p12.png",
+            "alt": "High quality stagering galaxy long women's dress."
+        },
+        "displayName": "Women's Dress Milky Galaxy",
+        "displayPrice": 94
+    }
+]

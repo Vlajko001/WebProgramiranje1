@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": {
+            "src": "client1.jpg",
+            "alt": "Picture of Anna Trevor, our regular customer and owner of C&C(ofcourse fictional for obvious purposes) imaginary company."
+        },
+        "displayName": "Anna Trevor",
+        "displayWho": "Customer",
+        "displayComment": "I'd like to make it known for everyone that this is number one place for seeking that one dress you just can't find anywhere. Great service and exceptional product quality are unprecedented."
+    },
+    {
+        "id": 2,
+        "image": {
+            "src": "client2.jpg",
+            "alt": "Picture of Lindsey Collinson, best EU fashionista as of 2019."
+        },
+        "displayName": "Lindsey Collinson",
+        "displayWho": "Fashionista",
+        "displayComment": "The way we dress defines ourselves in eyes of others even more than we may have originally thought. Here at Famms I've found one too many examples of how to impress others with your clothing options."
+    },
+    {
+        "id": 3,
+        "image": {
+            "src": "client3.jpg",
+            "alt": "Picture of Matt Sherman, NY top model last three years in a row in male competition."
+        },
+        "displayName": "Matt Sherman",
+        "displayWho": "Fashion model",
+        "displayComment": "There are simply some thing that are not found anywhere and that are exceptional in their own might. Here I found several examples of what is art in dressing. Clothes really make a man."
+    }
+]
