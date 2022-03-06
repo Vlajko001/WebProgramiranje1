@@ -1,17 +1,17 @@
 $(document).ready(function () {
     let currentPage = location.pathname;
     console.log(currentPage);
-    if(currentPage == "/C:/Users/Vladimir/Desktop/ICT/v2/osnovne-studije/2.godina/2.trimestar/%D0%92%D0%B5%D0%B1%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5%202/v1.1/%D1%81%D0%B0%D1%98%D1%82/famm/index.html"){
+    if(currentPage == "/WebProgramiranje1/index.html"){
         alert("glavna stranica");
-    }else if(currentPage == "/C:/Users/Vladimir/Desktop/ICT/v2/osnovne-studije/2.godina/2.trimestar/%D0%92%D0%B5%D0%B1%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5%202/v1.1/%D1%81%D0%B0%D1%98%D1%82/famm/about.html"){
+    }else if(currentPage == "/WebProgramiranje1/about.html"){
         alert("about");
-    }else if(currentPage == "/C:/Users/Vladimir/Desktop/ICT/v2/osnovne-studije/2.godina/2.trimestar/%D0%92%D0%B5%D0%B1%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5%202/v1.1/%D1%81%D0%B0%D1%98%D1%82/famm/testimonial.html"){
+    }else if(currentPage == "/WebProgramiranje1/testimonial.html"){
         alert("testimonials");
-    }else if(currentPage == "/C:/Users/Vladimir/Desktop/ICT/v2/osnovne-studije/2.godina/2.trimestar/%D0%92%D0%B5%D0%B1%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5%202/v1.1/%D1%81%D0%B0%D1%98%D1%82/famm/product.html"){
+    }else if(currentPage == "/WebProgramiranje1/product.html"){
         alert("products");
-    }else if(currentPage == "/C:/Users/Vladimir/Desktop/ICT/v2/osnovne-studije/2.godina/2.trimestar/%D0%92%D0%B5%D0%B1%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5%202/v1.1/%D1%81%D0%B0%D1%98%D1%82/famm/blog_list.html"){
+    }else if(currentPage == "/WebProgramiranje1/blog_list.html"){
         alert("blog list");
-    }else if(currentPage == "/C:/Users/Vladimir/Desktop/ICT/v2/osnovne-studije/2.godina/2.trimestar/%D0%92%D0%B5%D0%B1%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5%202/v1.1/%D1%81%D0%B0%D1%98%D1%82/famm/contact.html"){
+    }else if(currentPage == "/WebProgramiranje1/contact.html"){
         alert("contakt");
     }else{
         alert("keks");
