@@ -137,7 +137,7 @@ function ajaxCallBack(socialNetworks, result){
             <div class="col-md-4 footer-col">
                 <div class="footer_detail">
                     <a href="index.html" class="footer-logo">Famms</a>
-                    <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with</p>
+                    <p>Fancy clothes shop Famms, your one-stop for all shirts, dresses, suits, you name it, we have it.</p>
                     <div class="footer_social">
                         ${ajaxCallBack("socialNetworks", function(result){
                             document.querySelector(".footer_social").innerHTML = writeSocialCases(result);
